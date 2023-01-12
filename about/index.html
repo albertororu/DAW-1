@@ -49,14 +49,12 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                     </li>
                 </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../Tema03/">Tema 3</a>
+                    </li>
+                </ul>
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">About</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#control-de-versiones">CONTROL DE VERSIONES</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#actividades-tema">Actividades Tema</a>
-    </li>
-    </ul>
                     </li>
                 </ul>
       </div>
@@ -91,85 +89,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="unidad-3">UNIDAD 3</h1>
-<h3 id="control-de-versiones"><strong>CONTROL DE VERSIONES</strong></h3>
-<p>Los sistemas más conocidos dentro del control de versiones son:</p>
-<ul>
-<li>CVS</li>
-<li>Subversion</li>
-<li>Mercurial</li>
-<li><strong>Git</strong></li>
-</ul>
-<p>El mas conocido de los mencionados antes es Git, el cual posee unas caracteristicas como son:</p>
-<ul>
-<li>Es moderno</li>
-<li>Es distribuido</li>
-<li>Es eficiente</li>
-</ul>
-<p>Dentro de GIT también obtenemos unos conceptos que debemos aprender y tener en cuenta a la hora de su realización. Estos conceptos son varios y se pueden clasificar en:</p>
-<ul>
-<li>Repository (local y remote)</li>
-<li>Commit</li>
-<li>Branch</li>
-<li>[ ] Checkout</li>
-<li>[ ] Merge</li>
-</ul>
-<p>En GIT encontramos áreas diferentes que se pueden nombrar por:</p>
-<ul>
-<li>Working directory</li>
-<li>Staging area</li>
-<li>Repository</li>
-</ul>
-<p>Para poder movernos de uno a otro deberemos utilizar comandos dentro de GIT como pueden ser <strong>git add</strong> para desplazarnos del working directory al staging area o <strong>git commit</strong> para desplazarnos de staging area a repository.</p>
-<p>Aqui encontramos un ejemplo de las áreas</p>
-<p><img alt="Git areas" src="http://jamj2000.github.io/entornosdesarrollo/4/assets/git-areas2.png" /></p>
-<p>Dentro de GIT nos podemos encontrar tambien con las ramas que son lineas de tiempo en nuestro proyecto que nos sirven para aareglar errores, experimentar, hacer grandes cambios, etc.</p>
-<p>Aqui mostramos un ejemplo de ramas</p>
-<p><img alt="Git areas" src="http://jamj2000.github.io/entornosdesarrollo/4/assets/git-branches.png" /></p>
-<p>Para terminar con este tema nombraremos aquellos sitios que soportan GIT</p>
-<ul>
-<li>GitHub</li>
-<li>Bitbucket</li>
-<li>GitLab</li>
-<li>Coding -en chino- </li>
-</ul>
-<h3 id="actividades-tema"><em>Actividades Tema</em></h3>
-<p><strong>1.Además de Git, ¿que otros sistemas de control de versiones existen?</strong></p>
-<p>Existen otros sistemas como son CVS, Subversion y Mercurial</p>
-<p><strong>2.En Git, ¿qué tres áreas existen?</strong></p>
-<p>Existen el working directory, el staging area y el repository</p>
-<p><strong>4.Busca en Internet un buen tutorial de GIT y realízalo. ¿De qué tutorial se trata?</strong></p>
-<p>https://www.atlassian.com/es/git</p>
-<p>Este es el tutorial de GIT que he encontrado donde podemos ver teoria escrita y videos. Nos viene todo explicado por partes y explicando cada configuracion de GIT.</p>
-<p><strong>5.En Git, ¿para qué sirve el comando <code>git config</code>?</strong> </p>
-<p>El comando git config sirve para definir valores de configuración a nivel de un proyecto</p>
-<p><strong>6.En Git, ¿para qué sirve el comando <code>git init</code>?</strong> </p>
-<p>El comando git init sirve para crear un nuevo repositorio</p>
-<p><strong>7.En Git, ¿para qué sirve el comando <code>git clone</code>?</strong> </p>
-<p>El comando git clone se utiliza para apuntar a un repositorio existente y clonar o copiar dicho  repositorio en un nuevo directorio en otra ubicación.</p>
-<p><strong>8.En Git, ¿para qué sirve el comando <code>git status</code>?</strong> </p>
-<p>El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo</p>
-<p><strong>9.En Git, ¿para qué sirve el comando git add?</strong></p>
-<p>El comando git add añade un cambio del directorio de trabajo en el entorno de ensayo.</p>
-<p><strong>10.En Git, ¿para qué sirve el comando git commit?</strong></p>
-<p>El comando git commit sirve para confirmar una instantánea del directorio del entorno de ensayo en el historial de confirmaciones de los repositorios.</p>
-<p><strong>11.En Git, ¿para qué sirve el comando git log?</strong></p>
-<p>El comando git log es una herramienta utlizada para explorar el historial del repositorio</p>
-<p><strong>12.En Git, ¿para qué sirve el comando git reset HEAD nombrearchivo?</strong></p>
-<p>El comando git reset HEAD sirve para restablecer el HEAD actual en un estado especifico</p>
-<p><strong>13.En Git, ¿para qué sirve el comando git checkout -- nombrearchivo?</strong></p>
-<p>El comando git checkout te permite desplazarte entre las ramas creadas por git branch </p>
-<p><strong>15.En Git, ¿para qué sirve el comando <code>git branch</code>?</strong> </p>
-<p>El comando git branch nos permite crear, enumerar y eliminar ramas, así como cambiar su nombre.</p>
-<p><strong>16.En Git, ¿para qué sirve el comando <code>git checkout</code>?</strong> </p>
-<p>El comando git checkout nos permite desplazarnos entre las ramas creadas por git branch .</p>
-<p><strong>17.En Git, ¿para qué sirve el comando <code>git merge</code>?</strong> </p>
-<p>El comando git merge nos permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama. </p>
-<p><strong>18.En Git, explica cómo funciona la fusión (merge) de tipo fast-forward.</strong></p>
-<p>Fast Forward en Git Merge puede definirse como una opción de gran utilidad y eficiencia para acelerar el flujo de trabajo en el proceso del proyecto. Esto lo consigue mediante la armonización de la rama principal del  proyecto, con las modificaciones resultantes de la creación de una rama <em><code>feature</code></em> con determinadas especificaciones de cambios.</p>
-<p>Esta opción también se conoce como avance rápido o por sus siglas, FF (Fast Forward) en Git Merge, y destaca por su capacidad de cambiar el  *HEAD* en el sistema.</p>
-<p><strong>19.En Git, explica cómo funciona la fusión (merge) de tipo 3-way.</strong></p>
-<p>Cuando no hay un proceso lineal hacia la rama de destino, Git no tiene  más opción que combinarlas mediante una fusión de 3 vías. Las fusiones  de 3 vías utilizan una confirmación específica para unir dos  historiales.</p>
+                <p>By Alberto Romero</p>
               
             </div>
           </div>
@@ -178,7 +98,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Tema03/" class="btn btn-neutral" title="Tema 3"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -204,7 +124,7 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Tema03/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
     </span>
